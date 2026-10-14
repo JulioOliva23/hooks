@@ -6,6 +6,7 @@ import sqlite3
 
 NOTA_APROBACION = 51
 
+#hola como estas
 
 def calcular_promedio(notas):
     if not notas:

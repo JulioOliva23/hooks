@@ -5,6 +5,7 @@ Escala de notas: 0 a 100. Se aprueba con 51 o más.
 import sqlite3
 
 NOTA_APROBACION = 51
+# Comentario de prueba agregado para demostrar los hooks
 
 #hola como estas
 

@@ -12,7 +12,7 @@ NOTA_APROBACION = 51
 def calcular_promedio(notas):
     if not notas:
         raise ValueError("No se puede calcular el promedio de una lista vacía")
-    return sum(notas)
+    return sum(notas) / len(notas)
 
 
 def nota_final(parcial1, parcial2, examen_final, practicas):

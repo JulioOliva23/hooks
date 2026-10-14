@@ -51,7 +51,7 @@ def buscar_estudiante(conexion, nombre):
 
 
 def mejores_estudiantes(estudiantes, cantidad=3):
-    ordenados = sorted(estudiantes, key=lambda e: e["nota"])
+    ordenados = sorted(estudiantes, key=lambda e: e["nota"], reverse=True)
     return ordenados[:cantidad]
 
 
